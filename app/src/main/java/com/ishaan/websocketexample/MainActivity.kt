@@ -8,7 +8,7 @@ import kotlin.concurrent.thread
 class MainActivity : AppCompatActivity(), MessageListener {
 
     private lateinit var binding: ActivityMainBinding
-    private val serverUrl = "ws://192.168.18.145:8086/socketServer/abc"
+    private val serverUrl = "ws://echo.websocket.org"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
